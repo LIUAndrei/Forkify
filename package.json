@@ -7,6 +7,12 @@
     "start": "parcel index.html",
     "build": "parcel build index.html --dist-dir ./dist"
   },
+  "targets": {
+    "web": {
+      "context": "browser",
+      "publicUrl": "./"
+    }
+  },
   "author": "Andrei Liubinski",
   "license": "ISC",
   "devDependencies": {
